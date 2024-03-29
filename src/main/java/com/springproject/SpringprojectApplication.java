@@ -15,7 +15,7 @@ public class SpringprojectApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "this is demo spring project";
+		return "this is demo spring project"
 	}
 
 }
