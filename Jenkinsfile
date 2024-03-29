@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from the repository
-                git 'https://github.com/PiyushPandey2711/DevOps-Assignment.git'
+                git url: 'https://github.com/PiyushPandey2711/DevOps-Assignment.git'
             }
         }
         stage('Build') {
